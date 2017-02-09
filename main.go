@@ -32,6 +32,8 @@ func pexe() {
 		Chelp(parameter)
 	case "hello":
 		Chello(parameter[1:])
+	case "build":
+		Cbuild(parameter[1:])
 	default:
 		error("run", "unknown command "+parameter[0], "Run 'run help'")
 	}

@@ -5,6 +5,6 @@
 * version : バージョンを表示する
 * help : ヘルプを表示
 * hello : Hello WorldまたはHello [...parameter]を出力
-
+* build : ファイルの先頭からコマンドを取得し実行する
 
 
