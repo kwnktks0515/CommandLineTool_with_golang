@@ -22,7 +22,7 @@ func Chelp(p []string) {
 		fmt.Println(helplist(""))
 	case 2:
 		if s := helplist(p[1]); s != "" {
-			fmt.Println(helplist(p[1]))
+			fmt.Println(s)
 		} else {
 			error("help", "unknown command "+p[1], "Run 'run help'")
 		}
